@@ -5,26 +5,26 @@ export default function WhyChooseArc() {
     {
       id: 'vetted-talent',
       icon: '/images/03-why-choose/access_vetted_talent.webp',
-      title: 'Access vetted talent',
-      description: 'Meet ready to interview candidates who are fully vetted for domain expertise and English fluency.'
+      title: 'Zugang zu geprüften Talenten',
+      description: 'Treffen Sie interviewbereite Kandidaten, die vollständig auf Fachwissen und Englischkenntnisse geprüft sind.'
     },
     {
       id: 'matches-seconds',
       icon: '/images/03-why-choose/view_matches_in_second.webp',
-      title: 'View matches in seconds',
-      description: 'Stop reviewing 100s of resumes. View candidates instantly with HireAI.'
+      title: 'Matches in Sekunden sehen',
+      description: 'Schluss mit dem Durchsehen von Hunderten von Lebensläufen. Sehen Sie Kandidaten sofort mit HireAI.'
     },
     {
       id: 'global-hires',
       icon: '/images/03-why-choose/save_with_global_hires_v2.png',
-      title: 'Save with global hires',
-      description: 'Get access to 450,000 talent in 190 countries, saving up to 58% vs traditional hiring.'
+      title: 'Sparen mit globalen Einstellungen',
+      description: 'Erhalten Sie Zugang zu 450.000 Talenten in deutschen Städten (Berlin, München, Hamburg, Zürich) und weltweit, und sparen Sie bis zu 58% gegenüber traditionellen Einstellungen.'
     },
     {
       id: 'human-support',
       icon: '/images/03-why-choose/get_real_human_support.webp',
-      title: 'Get real human support',
-      description: 'Feel confident hiring remote talent with hands-on help from our team of expert global recruiters.'
+      title: 'Echte menschliche Unterstützung',
+      description: 'Fühlen Sie sich sicher bei der Einstellung von Remote-Talenten mit praktischer Hilfe von unserem Team erfahrener Recruiter.'
     }
   ];
 
@@ -33,7 +33,7 @@ export default function WhyChooseArc() {
       <div className="max-w-[1280px] mx-auto px-12 w-full">
         {/* Section Heading */}
         <h2 className="text-[48px] font-bold text-gray-900 text-center mb-12">
-          Why choose Arc
+          Warum Programmier-Anfang wählen?
         </h2>
 
         {/* Features Grid - Max 2 columns */}

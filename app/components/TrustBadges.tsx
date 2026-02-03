@@ -14,7 +14,7 @@ export default function TrustBadges() {
     <section className="bg-black h-[60px]">
       <div className="max-w-[1280px] mx-auto px-12 h-full flex items-center">
         <div className="flex items-center gap-12 w-full">
-          
+
           {/* Product Hunt Badge */}
           <div className="flex items-center gap-4 shrink-0">
             <svg width="80" height="25" viewBox="0 0 199 61" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -34,16 +34,16 @@ export default function TrustBadges() {
 
           {/* Trusted By Section */}
           <div className="flex items-center gap-10 flex-1">
-            <span className="text-sm text-white/60">Trusted by</span>
-            
+            <span className="text-sm text-white/60">Vertrauen von</span>
+
             <div className="flex items-center gap-10 flex-wrap">
               {companies.map((company) => (
-                <div 
+                <div
                   key={company.name}
                   className="opacity-80 hover:opacity-100 transition-opacity cursor-pointer"
                   style={{ height: `${company.height}px` }}
                 >
-                  <Image 
+                  <Image
                     src={company.logo}
                     alt={company.name}
                     width={company.height * 4}

@@ -1,71 +1,88 @@
 export default function Footer() {
   const brands = [
     {
-      name: 'Arc',
-      description: 'Helping employers find talent for remote jobs',
-      url: 'https://arc.dev/'
+      name: 'Programmier-Anfang',
+      description: 'Helfen Arbeitgebern, Talente für Remote-Jobs zu finden',
+      url: '#'
     },
     {
       name: 'Codementor',
-      description: 'Find a mentor to help you in real time',
+      description: 'Finden Sie einen Mentor, der Ihnen in Echtzeit hilft',
       url: 'https://www.codementor.io/'
     }
   ];
 
   const topTalent = {
-    title: 'TOP TALENT',
+    title: 'TOP TALENTE',
     links: [
-      { name: 'Software Developers', url: '/hire-developers' },
-      { name: 'Web Developers', url: '/hire-developers' },
-      { name: 'Mobile App Developers', url: '/hire-developers' },
-      { name: 'Front-End Developers', url: '/hire-developers' },
-      { name: 'Back-End Developers', url: '/hire-developers' },
-      { name: 'Full-Stack Developers', url: '/hire-developers' },
-      { name: 'DevOps Developers', url: '/hire-developers' },
-      { name: 'iOS Developers', url: '/hire-developers' },
-      { name: 'AI Developers', url: '/hire-developers' },
-      { name: 'PHP Developers', url: '/hire-developers' },
-      { name: 'Python Developers', url: '/hire-developers' },
-      { name: 'React Developers', url: '/hire-developers' },
-      { name: 'Angular Developers', url: '/hire-developers' },
-      { name: 'Node.js Developers', url: '/hire-developers' },
-      { name: 'Product Designers', url: '/hire-designers' },
-      { name: 'Web Designers', url: '/hire-designers' },
-      { name: 'UI Designers', url: '/hire-designers' },
-      { name: 'UX Designers', url: '/hire-designers' },
-      { name: 'Mobile App Designers', url: '/hire-designers' },
-      { name: 'Graphic Designers', url: '/hire-designers' },
-      { name: 'Brand Designers', url: '/hire-designers' },
-      { name: 'Digital Marketers', url: '/hire-marketers' },
-      { name: 'SEO Experts', url: '/hire-marketers' },
-      { name: 'Content Writers', url: '/hire-marketers' },
-      { name: 'Growth Marketers', url: '/hire-marketers' },
+      { name: 'Softwareentwickler', url: '/hire-developers' },
+      { name: 'Web-Entwickler', url: '/hire-developers' },
+      { name: 'Mobile-App-Entwickler', url: '/hire-developers' },
+      { name: 'Frontend-Entwickler', url: '/hire-developers' },
+      { name: 'Backend-Entwickler', url: '/hire-developers' },
+      { name: 'Full-Stack-Entwickler', url: '/hire-developers' },
+      { name: 'DevOps-Entwickler', url: '/hire-developers' },
+      { name: 'iOS-Entwickler', url: '/hire-developers' },
+      { name: 'KI-Entwickler', url: '/hire-developers' },
+      { name: 'PHP-Entwickler', url: '/hire-developers' },
+      { name: 'Python-Entwickler', url: '/hire-developers' },
+      { name: 'React-Entwickler', url: '/hire-developers' },
+      { name: 'Angular-Entwickler', url: '/hire-developers' },
+      { name: 'Node.js-Entwickler', url: '/hire-developers' },
+      { name: 'Produktdesigner', url: '/hire-designers' },
+      { name: 'Webdesigner', url: '/hire-designers' },
+      { name: 'UI-Designer', url: '/hire-designers' },
+      { name: 'UX-Designer', url: '/hire-designers' },
+      { name: 'Mobile-App-Designer', url: '/hire-designers' },
+      { name: 'Grafikdesigner', url: '/hire-designers' },
+      { name: 'Brand-Designer', url: '/hire-designers' },
+      { name: 'Digital Marketer', url: '/hire-marketers' },
+      { name: 'SEO-Experten', url: '/hire-marketers' },
+      { name: 'Content Writer', url: '/hire-marketers' },
+      { name: 'Growth Marketer', url: '/hire-marketers' },
       { name: 'Fractional CMOs', url: '/hire-marketers' },
-      { name: 'Product Managers', url: '/hire-product-managers' },
-      { name: 'Project Managers', url: '/hire-project-managers' },
-      { name: 'Program Managers', url: '/hire-project-managers' },
-      { name: 'Virtual Assistants', url: '/hire-assistants' }
+      { name: 'Produktmanager', url: '/hire-product-managers' },
+      { name: 'Projektmanager', url: '/hire-project-managers' },
+      { name: 'Programm-Manager', url: '/hire-project-managers' },
+      { name: 'Virtuelle Assistenten', url: '/hire-assistants' }
+    ]
+  };
+
+  const locations = {
+    title: 'STANDORTE',
+    links: [
+      { name: 'Berlin', url: '#' },
+      { name: 'München', url: '#' },
+      { name: 'Hamburg', url: '#' },
+      { name: 'Köln', url: '#' },
+      { name: 'Frankfurt', url: '#' },
+      { name: 'Stuttgart', url: '#' },
+      { name: 'Düsseldorf', url: '#' },
+      { name: 'Wien', url: '#' },
+      { name: 'Zürich', url: '#' },
+      { name: 'Genf', url: '#' },
+      { name: 'Basel', url: '#' }
     ]
   };
 
   const linksColumn = {
     title: 'LINKS',
     links: [
-      { name: 'Remote Jobs', url: '#' },
-      { name: 'Remote Developer Jobs', url: '#' },
-      { name: 'Remote Design Jobs', url: '#' },
-      { name: 'Remote Marketing Jobs', url: '#' },
-      { name: 'Job Description Templates', url: '#' },
-      { name: 'Development Services', url: '#' },
-      { name: 'Employer Blog', url: '#' },
-      { name: 'Talent Blog', url: '#' },
-      { name: 'Freelance Developer Rates', url: '#' },
-      { name: 'Remote Developer Salaries', url: '#' },
-      { name: 'About Us', url: '#' },
-      { name: 'Pricing', url: '#' },
+      { name: 'Remote-Jobs', url: '#' },
+      { name: 'Remote-Entwickler-Jobs', url: '#' },
+      { name: 'Remote-Design-Jobs', url: '#' },
+      { name: 'Remote-Marketing-Jobs', url: '#' },
+      { name: 'Stellenbeschreibungsvorlagen', url: '#' },
+      { name: 'Entwicklungsdienstleistungen', url: '#' },
+      { name: 'Arbeitgeber-Blog', url: '#' },
+      { name: 'Talent-Blog', url: '#' },
+      { name: 'Freelance-Entwickler-Preise', url: '#' },
+      { name: 'Remote-Entwickler-Gehälter', url: '#' },
+      { name: 'Über uns', url: '#' },
+      { name: 'Preise', url: '#' },
       { name: 'FAQ', url: '#' },
-      { name: 'Arc Newsletter', url: '#' },
-      { name: 'Partner with Arc', url: '#' }
+      { name: 'Newsletter', url: '#' },
+      { name: 'Partner werden', url: '#' }
     ]
   };
 
@@ -73,20 +90,18 @@ export default function Footer() {
     <footer className="bg-black text-white py-16">
       <div className="max-w-[1280px] mx-auto px-12 w-full">
         {/* Main Footer Content */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mb-12">
 
           {/* Brands Column */}
           <div>
             <h3 className="text-xs font-bold text-white/60 mb-6 uppercase tracking-wider">
-              BRANDS
+              MARKEN
             </h3>
             <div className="space-y-6">
               {brands.map((brand) => (
                 <a
                   key={brand.name}
                   href={brand.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="block group"
                 >
                   <div className="text-base font-semibold text-white group-hover:text-[rgb(0,159,255)] transition-colors">
@@ -100,7 +115,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Top Talent Column */}
+          {/* Top Talent Column 1 */}
           <div>
             <h3 className="text-xs font-bold text-white/60 mb-6 uppercase tracking-wider">
               {topTalent.title}
@@ -118,13 +133,31 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Top Talent Column (continued) */}
+          {/* Top Talent Column 2 */}
           <div>
             <h3 className="text-xs font-bold text-white/60 mb-6 uppercase tracking-wider opacity-0">
               {topTalent.title}
             </h3>
             <div className="space-y-3">
               {topTalent.links.slice(15).map((link) => (
+                <a
+                  key={link.name}
+                  href={link.url}
+                  className="block text-sm text-white/80 hover:text-[rgb(0,159,255)] transition-colors"
+                >
+                  {link.name}
+                </a>
+              ))}
+            </div>
+          </div>
+
+          {/* Locations Column */}
+          <div>
+            <h3 className="text-xs font-bold text-white/60 mb-6 uppercase tracking-wider">
+              {locations.title}
+            </h3>
+            <div className="space-y-3">
+              {locations.links.map((link) => (
                 <a
                   key={link.name}
                   href={link.url}
@@ -163,34 +196,32 @@ export default function Footer() {
           {/* Copyright and Legal Links */}
           <div className="flex items-center gap-6">
             <span className="text-sm text-white/60">
-              © Copyright 2026 Arc
+              © Copyright 2026 Programmier-Anfang
             </span>
             <a
-              href="https://arc.dev/cookies"
+              href="#"
               className="text-sm text-white/60 hover:text-white transition-colors"
             >
-              Cookie Policy
+              Cookie-Richtlinie
             </a>
             <a
-              href="https://arc.dev/privacy"
+              href="#"
               className="text-sm text-white/60 hover:text-white transition-colors"
             >
-              Privacy Policy
+              Datenschutz
             </a>
             <a
-              href="https://arc.dev/terms"
+              href="#"
               className="text-sm text-white/60 hover:text-white transition-colors"
             >
-              Terms of Service
+              Nutzungsbedingungen
             </a>
           </div>
 
           {/* Social Links */}
           <div className="flex items-center gap-4">
             <a
-              href="https://www.linkedin.com/company/arcdotdev"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#"
               className="text-white/60 hover:text-white transition-colors"
               aria-label="LinkedIn"
             >
@@ -199,9 +230,7 @@ export default function Footer() {
               </svg>
             </a>
             <a
-              href="https://x.com/arcdotdev"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#"
               className="text-white/60 hover:text-white transition-colors"
               aria-label="X (Twitter)"
             >
@@ -210,9 +239,7 @@ export default function Footer() {
               </svg>
             </a>
             <a
-              href="https://www.youtube.com/c/Arcdotdev"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#"
               className="text-white/60 hover:text-white transition-colors"
               aria-label="YouTube"
             >
@@ -221,9 +248,7 @@ export default function Footer() {
               </svg>
             </a>
             <a
-              href="https://www.facebook.com/arcdotdev"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#"
               className="text-white/60 hover:text-white transition-colors"
               aria-label="Facebook"
             >

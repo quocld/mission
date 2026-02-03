@@ -9,8 +9,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Arc - Hire the Top 2% of Remote Talent",
-  description: "Hire vetted remote developers, designers, marketers, and more. Top talent ready to interview.",
+  title: "Programmier-Anfang - Finden Sie die Top 2% der Remote-Talente",
+  description: "Stellen Sie geprüfte Remote-Entwickler, Designer, Marketer und mehr ein. Top-Talente bereit für Interviews.",
   robots: {
     index: false,
     follow: false,
@@ -23,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="de">
       <body
         className={`${inter.variable} antialiased font-sans`}
       >
