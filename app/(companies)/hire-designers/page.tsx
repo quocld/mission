@@ -1,23 +1,49 @@
 import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
+import WhyChooseArc from '@/app/components/WhyChooseArc';
 import HireHero from '../components/HireHero';
 import TalentShowcase from '../components/TalentShowcase';
 import StatsTestimonials from '../components/StatsTestimonials';
-import CategoriesGrid from '../components/CategoriesGrid';
 import HowItWorksSteps from '../components/HowItWorksSteps';
+import CompaniesTestimonials from '../components/CompaniesTestimonials';
+import DedicatedTeamSection from '../components/DedicatedTeamSection';
+import HiringGuideSection from '../components/HiringGuideSection';
 import FAQSection from '../components/FAQSection';
-import ResourcesSection from '../components/ResourcesSection';
+import FinalCTA from '../components/FinalCTA';
 
 export default function HireDesignersPage() {
   const profiles = [
     {
-      name: "Sarah M.",
-      location: "United States (UTC-5)",
-      badge: "Vetted designer",
-      bio: "Award-winning product designer with 12+ years creating user-centered digital experiences. Specialized in UI/UX design, design systems, and brand identity. Led design teams at Fortune 500 companies and startups.",
-      skills: ["Figma", "UI/UX", "Product Design", "Design Systems", "Prototyping", "Branding", "Sketch", "+12"],
+      name: "Soheil O.",
+      location: "United States (UTC-7)",
+      badge: "Vetted",
+      bio: "Accomplished Product Design leader with over 20 years of experience crafting user-centric solutions that drive substantial results. Successfully led groundbreaking GenAI projects at Pinterest, Twitter, and Walmart+, consistently delivering scalable products that boosted user engagement by up to 15% and improved conversion rates by 8%. Expertise in data-driven design, user research, and A/B testing, alongside a proven track record in growing design teams from a few members to over 50.",
+      primarySkill: { name: "Product design", experience: "10 yrs" },
+      skills: ["UI design", "Branding", "Visual design", "Figma", "Team collaboration", "User Testing", "+13"],
       availability: "Full-time & Freelance",
-      previousCompany: { name: "Apple", logo: "Apple.jpg" },
+      previousCompany: { name: "Pinterest", logo: "Pinterest.jpg" },
+      avatar: ""
+    },
+    {
+      name: "Audrey W.",
+      location: "United States (UTC+8)",
+      badge: "Vetted",
+      bio: "I'm a product designer with a background in cognitive science and human centered design fascinated by how we think and interact with the world around us. I enjoy breaking down complex problems and collaborating on design solutions. With 7+ years of experience, I've led products in large enterprises as well as early teams and am currently open to part time freelance work.",
+      primarySkill: { name: "Product design", experience: "6 yrs" },
+      skills: ["User Research", "Wireframing/prototyping", "Figma", "Design Systems", "Strategy", "Branding", "+3"],
+      availability: "Full-time & Freelance",
+      previousCompany: { name: "Salesforce", logo: "Salesforce.jpg" },
+      avatar: ""
+    },
+    {
+      name: "Vincent B.",
+      location: "United States (UTC-4)",
+      badge: "Vetted",
+      bio: "Vincent Boutaud is a seasoned agile Product Owner, Project Manager, and technology specialist with 17+ years of experience driving innovation at the intersection of 3D visualization, Building Information Modeling, and software development. Brings executive-level expertise in product strategy, quality operations, and cross-functional leadership.",
+      primarySkill: { name: "Product Management", experience: "17+ yrs" },
+      skills: ["Salesforce", "Jira/confluence", "Figma", "UI design", "UX/UI Design", "Salesforce lightning", "+3"],
+      availability: "Full-time & Freelance",
+      previousCompany: { name: "Epic Games", logo: "Epic Games.jpg" },
       avatar: ""
     }
   ];
@@ -30,103 +56,223 @@ export default function HireDesignersPage() {
 
   const testimonials = [
     {
-      quote: "Arc designers are incredibly talented and professional. They helped us completely redesign our product.",
-      author: "Emily Chen",
-      title: "Head of Product",
-      company: "TechCorp",
-      avatar: ""
-    },
-    {
-      quote: "The quality of design work from Arc designers exceeded our expectations.",
-      author: "James Wilson",
+      quote: "We've tried hiring from traditional platforms before, but the quality of developers at Arc is far more superior.",
+      author: "Moishe Groger",
       title: "CEO",
-      company: "DesignCo",
-      avatar: ""
+      company: "Tentaroo",
+      avatar: "/images/testimonials/moishe-groger.jpg"
     },
     {
-      quote: "Found an amazing UI/UX designer through Arc in just 3 days!",
-      author: "Sarah Kim",
-      title: "Product Manager",
-      company: "StartupXYZ",
-      avatar: ""
+      quote: "I've sourced former founders, senior engineers, and even CMOs in less than 72 hours.",
+      author: "Chris Bakke",
+      title: "Founder & CEO",
+      company: "Laskie",
+      avatar: "/images/testimonials/chris-bakke.jpg"
+    },
+    {
+      quote: "Highly skilled and diverse pool of talent at an affordable cost!",
+      author: "Kristen Hadjis",
+      title: "Lead Recruiter",
+      company: "Stem",
+      avatar: "/images/testimonials/kristen-hadjis.jpg"
     }
   ];
 
-  const categorySections = [
+  const companiesTestimonials = [
     {
-      id: "roles",
-      title: "Find and hire remote designers by roles",
-      items: [
-        { name: "UI Designers", icon: "ui-plain.svg", url: "/hire-designers/ui-designers" },
-        { name: "UX Designers", icon: "ux-plain.svg", url: "/hire-designers/ux-designers" },
-        { name: "Product Designers", icon: "product-plain.svg", url: "/hire-designers" },
-        { name: "Web Designers", icon: "web-plain.svg", url: "/hire-designers/web-designers" },
-        { name: "Graphic Designers", icon: "graphic-plain.svg", url: "/hire-designers/graphic-designers" },
-        { name: "Brand Designers", icon: "brand-plain.svg", url: "/hire-designers/brand-designers" },
-        { name: "Mobile App Designers", icon: "mobile-plain.svg", url: "/hire-designers/mobile-app-designers" },
-        { name: "Visual Designers", icon: "visual-plain.svg", url: "/hire-designers/visual-designers" }
-      ]
+      avatar: "/images/testimonials/sarah-thompson.png",
+      quote: "Arc's designers transformed our product vision into reality. Their expertise in UX and attention to detail exceeded expectations.",
+      author: "Sarah Thompson",
+      title: "Head of Design",
+      company: "Automattic"
     },
     {
-      id: "skills",
-      title: "Find and hire remote designers by skills",
-      items: [
-        { name: "Figma Designers", icon: "figma-plain.svg", url: "/hire-designers/figma-designers" },
-        { name: "Sketch Designers", icon: "sketch-plain.svg", url: "/hire-designers/sketch-designers" },
-        { name: "Adobe XD Designers", icon: "xd-plain.svg", url: "/hire-designers/adobe-xd" },
-        { name: "Photoshop Experts", icon: "photoshop-plain.svg", url: "/hire-designers/photoshop" },
-        { name: "Illustrator Experts", icon: "illustrator-plain.svg", url: "/hire-designers/illustrator" }
-      ]
+      avatar: "/images/testimonials/michael-chen.png",
+      quote: "Finding top-tier designers has never been easier. Arc's vetting process ensures we only interview the best.",
+      author: "Michael Chen",
+      title: "Product Director",
+      company: "Spotify"
+    },
+    {
+      avatar: "/images/testimonials/jennifer-martinez.png",
+      quote: "We built our entire design team through Arc. The quality and speed of hiring has been game-changing for us.",
+      author: "Jennifer Martinez",
+      title: "VP of Product",
+      company: "Udacity"
     }
   ];
+
+  const hiringGuideSections = [
+      {
+        title: "What does a product designer do and why do you need one?",
+        subsections: [
+          {
+            subtitle: "Overview",
+            content: "A product designer helps create and develop both digital and physical products. They ensure the product is functional, easy to use, and visually appealing while meeting the needs of its users. Product designers focus on making the design user-friendly and attractive for products like websites, apps, or software. They use user experience (UX) and user interface (UI) skills to create layouts, menus, and interactive features that are simple and efficient. No matter the product type, product designers play a key role in a product's success."
+          }
+        ]
+      },
+      {
+        title: "Types of product designers",
+        subsections: [
+          {
+            subtitle: "UX designers",
+            content: "UX designers focus on how users interact with a product, ensuring a smooth and enjoyable experience. They conduct user research, create wireframes, and test prototypes to understand user needs and behaviors."
+          },
+          {
+            subtitle: "UI designers",
+            content: "UI designers specialize in the visual aspects of a product, designing interfaces that are appealing and easy to navigate. They focus on buttons, icons, typography, and color schemes to create a cohesive look and feel."
+          },
+          {
+            subtitle: "Interaction designers",
+            content: "Interaction designers work on how users engage with digital products on a detailed level. They design the interactive elements, such as animations, transitions, and responses to user input."
+          },
+          {
+            subtitle: "Visual designers",
+            content: "Visual designers focus on the overall look and brand identity of digital products. They ensure that the design aligns with the company's visual identity while being functional."
+          }
+        ]
+      },
+      {
+        title: "Key skills to look for in product designers",
+        subsections: [
+          {
+            subtitle: "Technical skills",
+            content: "UX/UI design: Product designers need to create user-friendly and visually appealing interfaces. Wireframing and prototyping: Must be skilled in tools like Figma, Adobe XD, or InVision. Basic coding: Knowledge of HTML, CSS, and JavaScript helps collaboration with developers. User research: Experience in interviews, surveys, and usability testing."
+          },
+          {
+            subtitle: "Soft skills",
+            content: "Communication: Ability to present ideas and work with teams effectively. Problem-solving: Identify issues and create solutions that satisfy users and business goals. Adaptability: Accept feedback and adapt designs when plans shift. Attention to detail: Ensure every visual and interactive element works together. Time management: Deliver work on time without sacrificing quality."
+          }
+        ]
+      },
+      {
+        title: "How much does it cost to hire product designers?",
+        subsections: [
+          {
+            subtitle: "Rate overview",
+            content: "The cost of hiring a freelance product designer varies widely. Most freelance product designers charge between $25 to $200 per hour. For simpler tasks like wireframing or basic UI design, rates typically range from $25 to $80 per hour. More complex work, like 3D modeling, CAD design, or in-depth market research, can push rates up to $150 to $200 per hour."
+          },
+          {
+            subtitle: "Factors that affect rates",
+            content: "Experience level: Senior designers (5+ years) charge $100-$200/hr, junior designers (1-3 years) charge $25-$50/hr. Location: Designers from Eastern Europe or Asia may charge less than those in San Francisco or New York. Project complexity: More complex projects demand higher rates."
+          }
+        ]
+      },
+      {
+        title: "Common mistakes to avoid when hiring product designers",
+        subsections: [
+          {
+            subtitle: "Not defining your project needs clearly",
+            content: "One of the biggest mistakes is starting the hiring process without clearly understanding your project's goals and requirements."
+          },
+          {
+            subtitle: "Focusing too much on aesthetics",
+            content: "While a designer's portfolio may look visually appealing, don't overlook functionality and user experience."
+          },
+          {
+            subtitle: "Ignoring relevant experience",
+            content: "It's easy to be impressed by a designer's overall skills, but relevant experience is key."
+          },
+          {
+            subtitle: "Overlooking communication skills",
+            content: "Product designers often work closely with developers, product managers, and stakeholders. Strong communication skills are essential."
+          }
+        ]
+      }
+    ];
 
   const steps = [
     {
       number: "01",
-      title: "Request",
-      description: "Describe the ideal designer you're looking for.",
-      subtext: "Tell us about the role, design needs, and hiring budget.",
-      image: "request.png"
+      title: "Share your requirements",
+      description: "Tell us about the role and project, the skills required, your hiring budget, and desired location of your freelance designers.",
+      subtext: "We'll match you with the right designers",
+      image: "step-1.png"
     },
     {
       number: "02",
-      title: "Interview",
-      description: "Receive vetted designer profiles that match your needs.",
-      subtext: "Select the designer you want to interview.",
-      image: "interview.png"
+      title: "Start interviewing",
+      description: "We'll connect you with pre-screened remote designers who perfectly match your requirements and are ready to be interviewed.",
+      subtext: "Interview only the best candidates",
+      image: "step-2.png"
     },
     {
       number: "03",
-      title: "Hire",
-      description: "When ready, hire the designer you prefer.",
-      subtext: "Sign an NDA with your new designer, and we'll handle all the paperwork.",
-      image: "hire.png"
+      title: "Make a hire",
+      description: "When ready, hire a remote freelance designer, sign an NDA, and we'll take care of the rest.",
+      subtext: "We handle all the paperwork",
+      image: "step-3.png"
     }
-  ];
-
-  const articles = [
-    { title: "How to Hire the Perfect UX Designer", image: "resources/1.png", url: "/employer-blog/hire-ux-designer/" },
-    { title: "UI Designer Interview Questions", image: "resources/2.png", url: "/employer-blog/ui-designer-questions/" },
-    { title: "Building a Remote Design Team", image: "resources/3.png", url: "/employer-blog/remote-design-team/" },
-    { title: "Design System Best Practices", image: "resources/4.png", url: "/employer-blog/design-systems/" },
-    { title: "How to Evaluate Designer Portfolios", image: "resources/5.png", url: "/employer-blog/designer-portfolios/" },
-    { title: "Managing Remote Designers", image: "resources/6.png", url: "/employer-blog/manage-remote-designers/" }
   ];
 
   return (
     <div className="min-h-screen bg-white">
       <Header />
+      
+      {/* Hero Section */}
       <HireHero 
         category="designers"
-        count={12453}
-        description="Arc has 12,453 vetted remote designers ready to interview and hire. Browse profiles of world-class product designers, UI/UX designers, web designers, graphic designers, and more. Hire freelance designers or build full-time design teams."
+        count={2005}
+        description="Your vision deserves a great product designer to bring it to life. Finding the right fit alone is challenging alone, but Arc makes hiring the best freelance or full-time remote product designers easy. Save time by connecting directly with vetted product designers ready to interview."
       />
-      <TalentShowcase heading="12,453 Remote designers available to hire:" profiles={profiles} category="designers" />
-      <StatsTestimonials stats={stats} testimonials={testimonials} />
-      <CategoriesGrid heading="Top remote designers are just a few clicks away" subheading="Arc offers pre-vetted designers skilled in every design tool and methodology." sections={categorySections} />
-      <HowItWorksSteps steps={steps} category="designers" />
-      <FAQSection category="designers" />
-      <ResourcesSection heading="Resources for hiring design experts" subheading="Learn more about how to hire remote designers and build exceptional design teams!" articles={articles} />
+
+      {/* Talent Showcase */}
+      <TalentShowcase 
+        heading="2,005 Remote product designers and experts available to hire:" 
+        profiles={profiles} 
+        category="designers"
+      />
+
+      {/* Stats & Testimonials */}
+      <StatsTestimonials 
+        stats={stats} 
+        testimonials={testimonials}
+      />
+
+      {/* Why Choose Arc - Reuse from home page */}
+      <WhyChooseArc />
+
+      {/* How It Works */}
+      <HowItWorksSteps 
+        steps={steps}
+        category="designers"
+      />
+
+      {/* Companies Testimonials */}
+      <CompaniesTestimonials 
+        testimonials={companiesTestimonials}
+      />
+
+      {/* Dedicated Team Section */}
+      <DedicatedTeamSection 
+        heading="Build your dedicated team of product designers"
+        description="Work with your team seamlessly with Arc's project management tools, time tracking, and more."
+        features={[
+          { title: "Time tracking", description: "Monitor work hours and productivity" },
+          { title: "Project management", description: "Keep your team organized and on track" },
+          { title: "Secure payments", description: "Easy and secure payment processing" }
+        ]}
+      />
+
+      {/* Hiring Guide */}
+      <HiringGuideSection 
+        heading="How to hire top product designers"
+        sections={hiringGuideSections}
+      />
+
+      {/* FAQs */}
+      <FAQSection 
+        category="product designers"
+      />
+
+      {/* Final CTA */}
+      <FinalCTA 
+        heading="Your future product designer is just around the corner!"
+        subheading="Risk-free to get started."
+        ctaText="Hire talent"
+      />
+
       <Footer />
     </div>
   );
