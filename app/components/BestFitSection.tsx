@@ -4,32 +4,32 @@ export default function BestFitSection() {
   const offerings = [
     {
       id: 1,
-      title: 'Freelance contracts',
+      title: 'Freelance-Verträge',
       icon: '/images/04-best-fit/freelance-icon.svg',
       features: [
-        'Top 2% of talent, fully vetted',
-        'Hire in 72 hours',
-        'Pay hourly'
+        'Top 2% der Talente, vollständig geprüft',
+        'Einstellen in 72 Stunden',
+        'Stündliche Bezahlung'
       ]
     },
     {
       id: 2,
-      title: 'Full-time hires',
+      title: 'Vollzeiteinstellungen',
       icon: '/images/04-best-fit/fulltime-icon.svg',
       features: [
-        'Vetted and ready to interview',
-        'Hire in 14 days',
-        'Pay per hire'
+        'Geprüft und bereit für Interviews',
+        'Einstellen in 14 Tagen',
+        'Zahlung pro Einstellung'
       ]
     },
     {
       id: 3,
-      title: 'Global teams',
+      title: 'Globale Teams',
       icon: '/images/04-best-fit/global-icon.svg',
       features: [
-        'Scale globally with confidence',
-        'Dedicated recruiters for support',
-        'LATAM and APAC market entry'
+        'Skalieren Sie global mit Vertrauen',
+        'Dedizierte Recruiter zur Unterstützung',
+        'Markteintritt in LATAM und APAC'
       ]
     }
   ];
@@ -39,13 +39,13 @@ export default function BestFitSection() {
       <div className="max-w-[1280px] mx-auto px-12 w-full">
         {/* Section Heading */}
         <h2 className="text-[48px] font-bold text-gray-900 text-center mb-12">
-          Find the best fit for any remote role
+          Finden Sie die beste Lösung für jede Remote-Rolle
         </h2>
 
         {/* Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {offerings.map((offering) => (
-            <div 
+            <div
               key={offering.id}
               className="bg-gray-50 rounded-lg p-8 h-[244px] flex flex-col"
             >

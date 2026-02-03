@@ -15,62 +15,62 @@ export default function HireDesignersPage() {
   const profiles = [
     {
       name: "Soheil O.",
-      location: "United States (UTC-7)",
-      badge: "Vetted",
-      bio: "Accomplished Product Design leader with over 20 years of experience crafting user-centric solutions that drive substantial results. Successfully led groundbreaking GenAI projects at Pinterest, Twitter, and Walmart+, consistently delivering scalable products that boosted user engagement by up to 15% and improved conversion rates by 8%. Expertise in data-driven design, user research, and A/B testing, alongside a proven track record in growing design teams from a few members to over 50.",
-      primarySkill: { name: "Product design", experience: "10 yrs" },
-      skills: ["UI design", "Branding", "Visual design", "Figma", "Team collaboration", "User Testing", "+13"],
-      availability: "Full-time & Freelance",
+      location: "Vereinigte Staaten (UTC-7)",
+      badge: "Geprüft",
+      bio: "Erfahrener Product Design Leader mit über 20 Jahren Erfahrung in der Gestaltung benutzerzentrierter Lösungen, die signifikante Ergebnisse erzielen. Leitete erfolgreich bahnbrechende GenAI-Projekte bei Pinterest, Twitter und Walmart+, lieferte konsistent skalierbare Produkte, die das Nutzerengagement um bis zu 15% steigerten und die Konversionsraten um 8% verbesserten. Expertise in datengesteuertem Design, Nutzerforschung und A/B-Tests, gepaart mit einer nachgewiesenen Erfolgsbilanz beim Aufbau von Designteams von wenigen Mitgliedern auf über 50.",
+      primarySkill: { name: "Produktdesign", experience: "10 Jahre" },
+      skills: ["UI-Design", "Branding", "Visuelles Design", "Figma", "Teamzusammenarbeit", "Nutzertests", "+13"],
+      availability: "Vollzeit & Freelance",
       previousCompany: { name: "Pinterest", logo: "Pinterest.jpg" },
       avatar: ""
     },
     {
       name: "Audrey W.",
-      location: "United States (UTC+8)",
-      badge: "Vetted",
-      bio: "I'm a product designer with a background in cognitive science and human centered design fascinated by how we think and interact with the world around us. I enjoy breaking down complex problems and collaborating on design solutions. With 7+ years of experience, I've led products in large enterprises as well as early teams and am currently open to part time freelance work.",
-      primarySkill: { name: "Product design", experience: "6 yrs" },
-      skills: ["User Research", "Wireframing/prototyping", "Figma", "Design Systems", "Strategy", "Branding", "+3"],
-      availability: "Full-time & Freelance",
+      location: "Vereinigte Staaten (UTC+8)",
+      badge: "Geprüft",
+      bio: "Ich bin eine Produktdesignerin mit Hintergrund in Kognitionswissenschaft und Human Centered Design, fasziniert davon, wie wir denken und mit der Welt um uns herum interagieren. Ich genieße es, komplexe Probleme zu zerlegen und gemeinsam an Designlösungen zu arbeiten. Mit 7+ Jahren Erfahrung habe ich Produkte sowohl in großen Unternehmen als auch in frühen Teams geleitet und bin derzeit offen für Teilzeit-Freelance-Arbeit.",
+      primarySkill: { name: "Produktdesign", experience: "6 Jahre" },
+      skills: ["Nutzerforschung", "Wireframing/Prototyping", "Figma", "Design-Systeme", "Strategie", "Branding", "+3"],
+      availability: "Vollzeit & Freelance",
       previousCompany: { name: "Salesforce", logo: "Salesforce.jpg" },
       avatar: ""
     },
     {
       name: "Vincent B.",
-      location: "United States (UTC-4)",
-      badge: "Vetted",
-      bio: "Vincent Boutaud is a seasoned agile Product Owner, Project Manager, and technology specialist with 17+ years of experience driving innovation at the intersection of 3D visualization, Building Information Modeling, and software development. Brings executive-level expertise in product strategy, quality operations, and cross-functional leadership.",
-      primarySkill: { name: "Product Management", experience: "17+ yrs" },
-      skills: ["Salesforce", "Jira/confluence", "Figma", "UI design", "UX/UI Design", "Salesforce lightning", "+3"],
-      availability: "Full-time & Freelance",
+      location: "Vereinigte Staaten (UTC-4)",
+      badge: "Geprüft",
+      bio: "Vincent Boutaud ist ein erfahrener agiler Product Owner, Projektmanager und Technologiespezialist mit 17+ Jahren Erfahrung in der Innovationsförderung an der Schnittstelle von 3D-Visualisierung, Building Information Modeling und Softwareentwicklung. Bringt Expertise auf Führungsebene in Produktstrategie, Qualitätsbetrieb und funktionsübergreifender Führung mit.",
+      primarySkill: { name: "Produktmanagement", experience: "17+ Jahre" },
+      skills: ["Salesforce", "Jira/Confluence", "Figma", "UI-Design", "UX/UI-Design", "Salesforce Lightning", "+3"],
+      availability: "Vollzeit & Freelance",
       previousCompany: { name: "Epic Games", logo: "Epic Games.jpg" },
       avatar: ""
     }
   ];
 
   const stats = [
-    { prefix: "Up to", value: "75%", label: "faster to hire" },
-    { prefix: "Up to", value: "58%", label: "cost savings" },
-    { value: "800+", label: "hires made" }
+    { prefix: "Bis zu", value: "75%", label: "schneller eingestellt" },
+    { prefix: "Bis zu", value: "58%", label: "Kostenersparnis" },
+    { value: "800+", label: "Einstellungen vorgenommen" }
   ];
 
   const testimonials = [
     {
-      quote: "We've tried hiring from traditional platforms before, but the quality of developers at Arc is far more superior.",
+      quote: "Wir haben zuvor versucht, über traditionelle Plattformen einzustellen, aber die Qualität der Entwickler bei Programmier-Anfang ist weitaus besser.",
       author: "Moishe Groger",
       title: "CEO",
       company: "Tentaroo",
       avatar: "/images/testimonials/moishe-groger.jpg"
     },
     {
-      quote: "I've sourced former founders, senior engineers, and even CMOs in less than 72 hours.",
+      quote: "Ich habe ehemalige Gründer, Senior Engineers und sogar CMOs in weniger als 72 Stunden gefunden.",
       author: "Chris Bakke",
-      title: "Founder & CEO",
+      title: "Gründer & CEO",
       company: "Laskie",
       avatar: "/images/testimonials/chris-bakke.jpg"
     },
     {
-      quote: "Highly skilled and diverse pool of talent at an affordable cost!",
+      quote: "Hochqualifizierter und vielfältiger Talentpool zu erschwinglichen Kosten!",
       author: "Kristen Hadjis",
       title: "Lead Recruiter",
       company: "Stem",
@@ -81,21 +81,21 @@ export default function HireDesignersPage() {
   const companiesTestimonials = [
     {
       avatar: "/images/testimonials/sarah-thompson.png",
-      quote: "Arc's designers transformed our product vision into reality. Their expertise in UX and attention to detail exceeded expectations.",
+      quote: "Programmier-Anfangs Designer haben unsere Produktvision in die Realität umgesetzt. Ihre Expertise in UX und Liebe zum Detail haben unsere Erwartungen übertroffen.",
       author: "Sarah Thompson",
       title: "Head of Design",
       company: "Automattic"
     },
     {
       avatar: "/images/testimonials/michael-chen.png",
-      quote: "Finding top-tier designers has never been easier. Arc's vetting process ensures we only interview the best.",
+      quote: "Top-Designer zu finden war nie einfacher. Der Prüfungsprozess von Programmier-Anfang stellt sicher, dass wir nur die Besten interviewen.",
       author: "Michael Chen",
       title: "Product Director",
       company: "Spotify"
     },
     {
       avatar: "/images/testimonials/jennifer-martinez.png",
-      quote: "We built our entire design team through Arc. The quality and speed of hiring has been game-changing for us.",
+      quote: "Wir haben unser gesamtes Designteam über Programmier-Anfang aufgebaut. Die Qualität und Geschwindigkeit der Einstellung war für uns revolutionär.",
       author: "Jennifer Martinez",
       title: "VP of Product",
       company: "Udacity"
@@ -103,105 +103,105 @@ export default function HireDesignersPage() {
   ];
 
   const hiringGuideSections = [
-      {
-        title: "What does a product designer do and why do you need one?",
-        subsections: [
-          {
-            subtitle: "Overview",
-            content: "A product designer helps create and develop both digital and physical products. They ensure the product is functional, easy to use, and visually appealing while meeting the needs of its users. Product designers focus on making the design user-friendly and attractive for products like websites, apps, or software. They use user experience (UX) and user interface (UI) skills to create layouts, menus, and interactive features that are simple and efficient. No matter the product type, product designers play a key role in a product's success."
-          }
-        ]
-      },
-      {
-        title: "Types of product designers",
-        subsections: [
-          {
-            subtitle: "UX designers",
-            content: "UX designers focus on how users interact with a product, ensuring a smooth and enjoyable experience. They conduct user research, create wireframes, and test prototypes to understand user needs and behaviors."
-          },
-          {
-            subtitle: "UI designers",
-            content: "UI designers specialize in the visual aspects of a product, designing interfaces that are appealing and easy to navigate. They focus on buttons, icons, typography, and color schemes to create a cohesive look and feel."
-          },
-          {
-            subtitle: "Interaction designers",
-            content: "Interaction designers work on how users engage with digital products on a detailed level. They design the interactive elements, such as animations, transitions, and responses to user input."
-          },
-          {
-            subtitle: "Visual designers",
-            content: "Visual designers focus on the overall look and brand identity of digital products. They ensure that the design aligns with the company's visual identity while being functional."
-          }
-        ]
-      },
-      {
-        title: "Key skills to look for in product designers",
-        subsections: [
-          {
-            subtitle: "Technical skills",
-            content: "UX/UI design: Product designers need to create user-friendly and visually appealing interfaces. Wireframing and prototyping: Must be skilled in tools like Figma, Adobe XD, or InVision. Basic coding: Knowledge of HTML, CSS, and JavaScript helps collaboration with developers. User research: Experience in interviews, surveys, and usability testing."
-          },
-          {
-            subtitle: "Soft skills",
-            content: "Communication: Ability to present ideas and work with teams effectively. Problem-solving: Identify issues and create solutions that satisfy users and business goals. Adaptability: Accept feedback and adapt designs when plans shift. Attention to detail: Ensure every visual and interactive element works together. Time management: Deliver work on time without sacrificing quality."
-          }
-        ]
-      },
-      {
-        title: "How much does it cost to hire product designers?",
-        subsections: [
-          {
-            subtitle: "Rate overview",
-            content: "The cost of hiring a freelance product designer varies widely. Most freelance product designers charge between $25 to $200 per hour. For simpler tasks like wireframing or basic UI design, rates typically range from $25 to $80 per hour. More complex work, like 3D modeling, CAD design, or in-depth market research, can push rates up to $150 to $200 per hour."
-          },
-          {
-            subtitle: "Factors that affect rates",
-            content: "Experience level: Senior designers (5+ years) charge $100-$200/hr, junior designers (1-3 years) charge $25-$50/hr. Location: Designers from Eastern Europe or Asia may charge less than those in San Francisco or New York. Project complexity: More complex projects demand higher rates."
-          }
-        ]
-      },
-      {
-        title: "Common mistakes to avoid when hiring product designers",
-        subsections: [
-          {
-            subtitle: "Not defining your project needs clearly",
-            content: "One of the biggest mistakes is starting the hiring process without clearly understanding your project's goals and requirements."
-          },
-          {
-            subtitle: "Focusing too much on aesthetics",
-            content: "While a designer's portfolio may look visually appealing, don't overlook functionality and user experience."
-          },
-          {
-            subtitle: "Ignoring relevant experience",
-            content: "It's easy to be impressed by a designer's overall skills, but relevant experience is key."
-          },
-          {
-            subtitle: "Overlooking communication skills",
-            content: "Product designers often work closely with developers, product managers, and stakeholders. Strong communication skills are essential."
-          }
-        ]
-      }
-    ];
+    {
+      title: "Was macht ein Produktdesigner und warum brauchen Sie einen?",
+      subsections: [
+        {
+          subtitle: "Überblick",
+          content: "Ein Produktdesigner hilft bei der Erstellung und Entwicklung sowohl digitaler als auch physischer Produkte. Sie stellen sicher, dass das Produkt funktional, einfach zu bedienen und visuell ansprechend ist und gleichzeitig die Bedürfnisse seiner Nutzer erfüllt. Produktdesigner konzentrieren sich darauf, das Design für Produkte wie Websites, Apps oder Software benutzerfreundlich und attraktiv zu gestalten. Sie nutzen User Experience (UX) und User Interface (UI) Fähigkeiten, um Layouts, Menüs und interaktive Funktionen zu erstellen, die einfach und effizient sind. Unabhängig von der Produktart spielen Produktdesigner eine Schlüsselrolle für den Erfolg eines Produkts."
+        }
+      ]
+    },
+    {
+      title: "Arten von Produktdesignern",
+      subsections: [
+        {
+          subtitle: "UX-Designer",
+          content: "UX-Designer konzentrieren sich darauf, wie Nutzer mit einem Produkt interagieren, und sorgen für ein reibungsloses und angenehmes Erlebnis. Sie führen Benutzerforschung durch, erstellen Wireframes und testen Prototypen, um Benutzerbedürfnisse und -verhalten zu verstehen."
+        },
+        {
+          subtitle: "UI-Designer",
+          content: "UI-Designer spezialisieren sich auf die visuellen Aspekte eines Produkts und entwerfen Schnittstellen, die ansprechend und einfach zu navigieren sind. Sie konzentrieren sich auf Schaltflächen, Symbole, Typografie und Farbschemata, um ein stimmiges Erscheinungsbild zu schaffen."
+        },
+        {
+          subtitle: "Interaktionsdesigner",
+          content: "Interaktionsdesigner arbeiten daran, wie Nutzer auf detaillierter Ebene mit digitalen Produkten interagieren. Sie entwerfen die interaktiven Elemente wie Animationen, Übergänge und Reaktionen auf Benutzereingaben."
+        },
+        {
+          subtitle: "Visual Designer",
+          content: "Visual Designer konzentrieren sich auf das gesamte Aussehen und die Markenidentität digitaler Produkte. Sie stellen sicher, dass das Design mit der visuellen Identität des Unternehmens übereinstimmt und gleichzeitig funktional ist."
+        }
+      ]
+    },
+    {
+      title: "Schlüsselqualifikationen, auf die Sie bei Produktdesignern achten sollten",
+      subsections: [
+        {
+          subtitle: "Technische Fähigkeiten",
+          content: "UX/UI-Design: Produktdesigner müssen benutzerfreundliche und visuell ansprechende Schnittstellen erstellen. Wireframing und Prototyping: Müssen in Tools wie Figma, Adobe XD oder InVision versiert sein. Grundlegendes Coding: Kenntnisse in HTML, CSS und JavaScript helfen bei der Zusammenarbeit mit Entwicklern. Nutzerforschung: Erfahrung in Interviews, Umfragen und Usability-Tests."
+        },
+        {
+          subtitle: "Soft Skills",
+          content: "Kommunikation: Fähigkeit, Ideen zu präsentieren und effektiv mit Teams zusammenzuarbeiten. Problemlösung: Probleme identifizieren und Lösungen schaffen, die Nutzer und Geschäftsziele zufriedenstellen. Anpassungsfähigkeit: Feedback annehmen und Designs anpassen, wenn sich Pläne ändern. Liebe zum Detail: Sicherstellen, dass jedes visuelle und interaktive Element zusammenarbeitet. Zeitmanagement: Arbeit pünktlich liefern, ohne die Qualität zu beeinträchtigen."
+        }
+      ]
+    },
+    {
+      title: "Wie viel kostet es, Produktdesigner einzustellen?",
+      subsections: [
+        {
+          subtitle: "Preisübersicht",
+          content: "Die Kosten für die Einstellung eines Freelance-Produktdesigners variieren stark. Die meisten Freelance-Produktdesigner verlangen zwischen 25 und 200 US-Dollar pro Stunde. Für einfachere Aufgaben wie Wireframing oder grundlegendes UI-Design liegen die Preise typischerweise zwischen 25 und 80 US-Dollar pro Stunde. Komplexere Arbeiten wie 3D-Modellierung, CAD-Design oder tiefgehende Marktforschung können die Preise auf 150 bis 200 US-Dollar pro Stunde treiben."
+        },
+        {
+          subtitle: "Faktoren, die die Preise beeinflussen",
+          content: "Erfahrungsniveau: Senior Designer (5+ Jahre) verlangen 100-200 $/Std., Junior Designer (1-3 Jahre) 25-50 $/Std. Standort: Designer aus Osteuropa oder Asien können weniger verlangen als solche in San Francisco oder New York. Projektkomplexität: Komplexere Projekte erfordern höhere Preise."
+        }
+      ]
+    },
+    {
+      title: "Häufige Fehler, die man bei der Einstellung von Produktdesignern vermeiden sollte",
+      subsections: [
+        {
+          subtitle: "Ihre Projektbedürfnisse nicht klar definieren",
+          content: "Einer der größten Fehler ist es, den Einstellungsprozess zu beginnen, ohne die Ziele und Anforderungen Ihres Projekts klar zu verstehen."
+        },
+        {
+          subtitle: "Zu viel Fokus auf Ästhetik",
+          content: "Während das Portfolio eines Designers visuell ansprechend aussehen mag, übersehen Sie nicht Funktionalität und User Experience."
+        },
+        {
+          subtitle: "Relevante Erfahrung ignorieren",
+          content: "Es ist leicht, von den allgemeinen Fähigkeiten eines Designers beeindruckt zu sein, aber relevante Erfahrung ist entscheidend."
+        },
+        {
+          subtitle: "Kommunikationsfähigkeiten übersehen",
+          content: "Produktdesigner arbeiten oft eng mit Entwicklern, Produktmanagern und Stakeholdern zusammen. Starke Kommunikationsfähigkeiten sind unerlässlich."
+        }
+      ]
+    }
+  ];
 
   const steps = [
     {
       number: "01",
-      title: "Share your requirements",
-      description: "Tell us about the role and project, the skills required, your hiring budget, and desired location of your freelance designers.",
-      subtext: "We'll match you with the right designers",
+      title: "Teilen Sie Ihre Anforderungen",
+      description: "Erzählen Sie uns von der Rolle und dem Projekt, den erforderlichen Fähigkeiten, Ihrem Einstellungsbudget und dem gewünschten Standort Ihrer Freelance-Designer.",
+      subtext: "Wir matchen Sie mit den richtigen Designern",
       image: "step-1.png"
     },
     {
       number: "02",
-      title: "Start interviewing",
-      description: "We'll connect you with pre-screened remote designers who perfectly match your requirements and are ready to be interviewed.",
-      subtext: "Interview only the best candidates",
+      title: "Beginnen Sie Interviews",
+      description: "Wir verbinden Sie mit vorgeprüften Remote-Designern, die perfekt zu Ihren Anforderungen passen und bereit für Interviews sind.",
+      subtext: "Interviewen Sie nur die besten Kandidaten",
       image: "step-2.png"
     },
     {
       number: "03",
-      title: "Make a hire",
-      description: "When ready, hire a remote freelance designer, sign an NDA, and we'll take care of the rest.",
-      subtext: "We handle all the paperwork",
+      title: "Stellen Sie ein",
+      description: "Wenn Sie bereit sind, stellen Sie einen Remote-Freelance-Designer ein, unterschreiben Sie eine NDA, und wir erledigen den Rest.",
+      subtext: "Wir kümmern uns um den gesamten Papierkram",
       image: "step-3.png"
     }
   ];
@@ -209,24 +209,24 @@ export default function HireDesignersPage() {
   return (
     <div className="min-h-screen bg-white">
       <Header />
-      
+
       {/* Hero Section */}
-      <HireHero 
+      <HireHero
         category="designers"
         count={2005}
-        description="Your vision deserves a great product designer to bring it to life. Finding the right fit alone is challenging alone, but Arc makes hiring the best freelance or full-time remote product designers easy. Save time by connecting directly with vetted product designers ready to interview."
+        description="Ihre Vision verdient einen großartigen Produktdesigner, um sie zum Leben zu erwecken. Die richtige Passform alleine zu finden ist herausfordernd, aber Programmier-Anfang macht die Einstellung der besten Freelance- oder Vollzeit-Remote-Produktdesigner einfach. Sparen Sie Zeit, indem Sie sich direkt mit geprüften Produktdesignern verbinden, die bereit für Interviews sind."
       />
 
       {/* Talent Showcase */}
-      <TalentShowcase 
-        heading="2,005 Remote product designers and experts available to hire:" 
-        profiles={profiles} 
+      <TalentShowcase
+        heading="2.005 Remote-Produktdesigner und Experten verfügbar:"
+        profiles={profiles}
         category="designers"
       />
 
       {/* Stats & Testimonials */}
-      <StatsTestimonials 
-        stats={stats} 
+      <StatsTestimonials
+        stats={stats}
         testimonials={testimonials}
       />
 
@@ -234,43 +234,43 @@ export default function HireDesignersPage() {
       <WhyChooseArc />
 
       {/* How It Works */}
-      <HowItWorksSteps 
+      <HowItWorksSteps
         steps={steps}
         category="designers"
       />
 
       {/* Companies Testimonials */}
-      <CompaniesTestimonials 
+      <CompaniesTestimonials
         testimonials={companiesTestimonials}
       />
 
       {/* Dedicated Team Section */}
-      <DedicatedTeamSection 
-        heading="Build your dedicated team of product designers"
-        description="Work with your team seamlessly with Arc's project management tools, time tracking, and more."
+      <DedicatedTeamSection
+        heading="Bauen Sie Ihr dediziertes Team von Produktdesignern auf"
+        description="Arbeiten Sie nahtlos mit Ihrem Team zusammen mit den Projektmanagement-Tools, der Zeiterfassung und mehr von Programmier-Anfang."
         features={[
-          { title: "Time tracking", description: "Monitor work hours and productivity" },
-          { title: "Project management", description: "Keep your team organized and on track" },
-          { title: "Secure payments", description: "Easy and secure payment processing" }
+          { title: "Zeiterfassung", description: "Überwachen Sie Arbeitsstunden und Produktivität" },
+          { title: "Projektmanagement", description: "Halten Sie Ihr Team organisiert und auf Kurs" },
+          { title: "Sichere Zahlungen", description: "Einfache und sichere Zahlungsabwicklung" }
         ]}
       />
 
       {/* Hiring Guide */}
-      <HiringGuideSection 
-        heading="How to hire top product designers"
+      <HiringGuideSection
+        heading="Wie man Top-Produktdesigner einstellt"
         sections={hiringGuideSections}
       />
 
       {/* FAQs */}
-      <FAQSection 
+      <FAQSection
         category="product designers"
       />
 
       {/* Final CTA */}
-      <FinalCTA 
-        heading="Your future product designer is just around the corner!"
-        subheading="Risk-free to get started."
-        ctaText="Hire talent"
+      <FinalCTA
+        heading="Ihr zukünftiger Produktdesigner ist gleich um die Ecke!"
+        subheading="Risikofrei starten."
+        ctaText="Talente einstellen"
       />
 
       <Footer />

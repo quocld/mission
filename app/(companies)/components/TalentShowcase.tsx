@@ -26,7 +26,7 @@ export default function TalentShowcase({ heading, profiles, category }: TalentSh
       <div className="max-w-[1280px] mx-auto px-12 w-full">
         {/* Breadcrumb */}
         <div className="flex items-center gap-2 text-sm text-gray-600 mb-8">
-          <a href="/" className="hover:text-[rgb(0,159,255)] transition-colors">Home</a>
+          <a href="/" className="hover:text-[rgb(0,159,255)] transition-colors">Startseite</a>
           <span>/</span>
           <span className="text-gray-900 capitalize">{category}</span>
         </div>
@@ -39,7 +39,7 @@ export default function TalentShowcase({ heading, profiles, category }: TalentSh
         {/* Profiles Grid */}
         <div className="space-y-8 mb-12">
           {profiles.map((profile, index) => (
-            <div 
+            <div
               key={index}
               className="bg-gray-50 rounded-lg p-8 hover:shadow-lg transition-shadow"
             >
@@ -60,7 +60,7 @@ export default function TalentShowcase({ heading, profiles, category }: TalentSh
                   {/* Vetted Badge */}
                   <div className="absolute -bottom-1 -right-1 w-6 h-6 bg-[rgb(23,162,69)] rounded-full flex items-center justify-center">
                     <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                 </div>
@@ -85,7 +85,7 @@ export default function TalentShowcase({ heading, profiles, category }: TalentSh
                   {/* Skills */}
                   <div className="flex flex-wrap gap-2 mb-4">
                     {profile.skills.map((skill, idx) => (
-                      <span 
+                      <span
                         key={idx}
                         className="px-3 py-1 bg-white rounded-full text-sm text-gray-700 border border-gray-200"
                       >
@@ -99,7 +99,7 @@ export default function TalentShowcase({ heading, profiles, category }: TalentSh
                     <div className="flex items-center gap-8">
                       {/* Availability */}
                       <div>
-                        <div className="text-xs text-gray-500 mb-1">Availability</div>
+                        <div className="text-xs text-gray-500 mb-1">Verfügbarkeit</div>
                         <div className="text-sm font-semibold text-gray-900">
                           {profile.availability}
                         </div>
@@ -107,7 +107,7 @@ export default function TalentShowcase({ heading, profiles, category }: TalentSh
 
                       {/* Previous Company */}
                       <div>
-                        <div className="text-xs text-gray-500 mb-1">Previously at</div>
+                        <div className="text-xs text-gray-500 mb-1">Zuvor bei</div>
                         <div className="flex items-center gap-2">
                           <div className="w-6 h-6 rounded-full bg-gray-200"></div>
                           <span className="text-sm font-semibold text-gray-900">
@@ -119,7 +119,7 @@ export default function TalentShowcase({ heading, profiles, category }: TalentSh
 
                     {/* CTA Button */}
                     <button className="px-6 py-2.5 text-sm font-semibold text-white bg-[rgb(23,162,69)] rounded-md hover:bg-[rgb(20,145,60)] transition-colors">
-                      Hire now
+                      Jetzt einstellen
                     </button>
                   </div>
                 </div>
@@ -131,10 +131,10 @@ export default function TalentShowcase({ heading, profiles, category }: TalentSh
         {/* CTA Section */}
         <div className="text-center bg-gray-50 rounded-lg p-12">
           <h3 className="text-[32px] font-bold text-gray-900 mb-6">
-            Discover more <span className="text-[rgb(0,159,255)]">remote {category}</span> today
+            Entdecken Sie mehr <span className="text-[rgb(0,159,255)]">remote {category}</span> heute
           </h3>
           <button className="px-8 py-3 text-base font-semibold text-white bg-[rgb(23,162,69)] rounded-md hover:bg-[rgb(20,145,60)] transition-colors">
-            Start hiring
+            Jetzt einstellen
           </button>
         </div>
       </div>

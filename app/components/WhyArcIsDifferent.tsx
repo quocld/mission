@@ -7,7 +7,7 @@ export default function WhyArcIsDifferent() {
   const testimonials = [
     {
       id: 1,
-      quote: "Scale your team while saving time, money, and brainpower",
+      quote: "Skalieren Sie Ihr Team und sparen Sie Zeit, Geld und Nerven",
       author: "Todd Wiesel",
       position: "Founder @ BAXUS Blockchain protocol",
       company: "BAXUS",
@@ -16,7 +16,7 @@ export default function WhyArcIsDifferent() {
     },
     {
       id: 2,
-      quote: "Highly skilled and diverse pool of talent at an affordable cost!",
+      quote: "Hochqualifizierter und vielfältiger Talentpool zu erschwinglichen Kosten!",
       author: "Kristen (KJ) O'Sullivan",
       position: "Lead Recruiter @ Stem",
       company: "Stem",
@@ -25,7 +25,7 @@ export default function WhyArcIsDifferent() {
     },
     {
       id: 3,
-      quote: "Quickly delivered candidates that met our very high bar",
+      quote: "Schnell Kandidaten geliefert, die unseren sehr hohen Ansprüchen genügten",
       author: "Derrick Mar",
       position: "Co-founder and CPO @ YC-backed Pathrise",
       company: "Pathrise",
@@ -34,7 +34,7 @@ export default function WhyArcIsDifferent() {
     },
     {
       id: 4,
-      quote: "Some of the best hires we've ever made!",
+      quote: "Einige der besten Einstellungen, die wir je gemacht haben!",
       author: "Hunter McKinley",
       position: "Co-Founder & CEO @ Backtrack",
       company: "Backtrack",
@@ -54,16 +54,16 @@ export default function WhyArcIsDifferent() {
 
     const scroll = () => {
       scrollPos += 0.5; // Scroll speed
-      
+
       if (scrollContainer) {
         scrollContainer.scrollLeft = scrollPos;
-        
+
         // Reset when reaching halfway (since we duplicated items)
         if (scrollPos >= scrollContainer.scrollWidth / 2) {
           scrollPos = 0;
         }
       }
-      
+
       animationId = requestAnimationFrame(scroll);
     };
 
@@ -84,17 +84,17 @@ export default function WhyArcIsDifferent() {
       <div className="max-w-[1280px] mx-auto px-12 w-full">
         {/* Section Heading */}
         <h2 className="text-[48px] font-bold text-gray-900 text-center mb-8">
-          Why Arc is different
+          Warum Programmier-Anfang anders ist
         </h2>
 
         {/* Trustpilot and Stats Row */}
         <div className="flex items-center justify-center gap-12 mb-12">
           {/* Trustpilot Rating */}
           <div className="flex flex-col items-center">
-            <span className="text-sm font-semibold text-gray-900 mb-2">Excellent</span>
-            <a 
-              href="https://www.trustpilot.com/review/arc.dev" 
-              target="_blank" 
+            <span className="text-sm font-semibold text-gray-900 mb-2">Exzellent</span>
+            <a
+              href="https://www.trustpilot.com/review/arc.dev"
+              target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1"
             >
@@ -144,26 +144,26 @@ export default function WhyArcIsDifferent() {
             {/* Stat 1 */}
             <div className="text-center">
               <div className="text-[36px] font-bold text-gray-900">75%</div>
-              <div className="text-sm text-gray-600">faster to hire</div>
+              <div className="text-sm text-gray-600">schneller eingestellt</div>
             </div>
 
             {/* Stat 2 */}
             <div className="text-center">
               <div className="text-[36px] font-bold text-gray-900">58%</div>
-              <div className="text-sm text-gray-600">cost savings</div>
+              <div className="text-sm text-gray-600">Kostenersparnis</div>
             </div>
 
             {/* Stat 3 */}
             <div className="text-center">
               <div className="text-[36px] font-bold text-gray-900">800+</div>
-              <div className="text-sm text-gray-600">hires made</div>
+              <div className="text-sm text-gray-600">Einstellungen vorgenommen</div>
             </div>
           </div>
         </div>
 
         {/* Testimonials Carousel */}
         <div className="relative overflow-hidden">
-          <div 
+          <div
             ref={scrollRef}
             className="flex gap-6 overflow-x-hidden"
             style={{ scrollBehavior: 'auto' }}

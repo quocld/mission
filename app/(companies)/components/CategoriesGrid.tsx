@@ -52,7 +52,7 @@ export default function CategoriesGrid({ heading, subheading, sections }: Catego
                   <div className="w-16 h-16 flex items-center justify-center">
                     <div className="w-12 h-12 bg-gray-200 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
                       <svg className="w-8 h-8 text-gray-600" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z"/>
+                        <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z" />
                       </svg>
                     </div>
                   </div>
@@ -70,13 +70,13 @@ export default function CategoriesGrid({ heading, subheading, sections }: Catego
         {/* CTAs */}
         <div className="flex items-center justify-center gap-4 mt-12">
           <button className="px-8 py-3 text-base font-semibold text-white bg-[rgb(23,162,69)] rounded-md hover:bg-[rgb(20,145,60)] transition-colors">
-            Hire a developer
+            Entwickler einstellen
           </button>
-          <a 
+          <a
             href="/hire-developers"
             className="px-8 py-3 text-base font-semibold text-gray-900 border border-gray-300 rounded-md hover:bg-gray-50 transition-colors"
           >
-            View all developers
+            Alle Entwickler ansehen
           </a>
         </div>
       </div>

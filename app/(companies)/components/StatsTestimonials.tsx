@@ -23,7 +23,7 @@ export default function StatsTestimonials({ stats, testimonials }: StatsTestimon
       <div className="max-w-[1280px] mx-auto px-12 w-full">
         {/* Title */}
         <h2 className="text-[40px] font-bold text-gray-900 text-center mb-12">
-          Remote hiring made easy
+          Remote-Einstellungen leicht gemacht
         </h2>
 
         {/* Stats Row */}
@@ -44,7 +44,7 @@ export default function StatsTestimonials({ stats, testimonials }: StatsTestimon
         {/* Testimonials Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
           {testimonials.map((testimonial, index) => (
-            <div 
+            <div
               key={index}
               className="bg-white rounded-lg p-6"
             >
@@ -79,8 +79,8 @@ export default function StatsTestimonials({ stats, testimonials }: StatsTestimon
 
         {/* Trustpilot */}
         <div className="flex items-center justify-center gap-3">
-          <span className="text-sm font-semibold text-gray-900">Excellent</span>
-          <a 
+          <span className="text-sm font-semibold text-gray-900">Exzellent</span>
+          <a
             href="https://www.trustpilot.com/review/arc.dev"
             target="_blank"
             rel="noopener noreferrer"

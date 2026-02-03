@@ -17,7 +17,7 @@ export default function CompaniesTestimonials({ testimonials }: CompaniesTestimo
     <section className="bg-gray-50 py-20">
       <div className="max-w-[1280px] mx-auto px-12 w-full">
         <h2 className="text-[40px] font-bold text-gray-900 text-center mb-12">
-          What companies are saying
+          Was Unternehmen sagen
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -26,7 +26,7 @@ export default function CompaniesTestimonials({ testimonials }: CompaniesTestimo
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
                 "{testimonial.quote}"
               </p>
-              
+
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-full bg-gray-200 overflow-hidden flex-shrink-0">
                   {testimonial.avatar && (

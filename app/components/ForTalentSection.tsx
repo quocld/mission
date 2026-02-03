@@ -6,35 +6,35 @@ export default function ForTalentSection() {
       <div className="max-w-[1280px] mx-auto px-12 w-full">
         {/* Grid Layout: 50% / 50% */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-          
+
           {/* Left Column - Text Content */}
           <div>
             {/* Label */}
             <div className="text-sm font-semibold text-white/60 mb-4 uppercase tracking-wider">
-              For talent
+              Für Talente
             </div>
 
             {/* Heading */}
             <h2 className="text-[40px] font-bold leading-tight mb-6">
-              <span className="text-white">Work the way you want </span>
-              <span className="text-[rgb(0,159,255)]">anywhere</span>
+              <span className="text-white">Arbeiten Sie, wie Sie wollen </span>
+              <span className="text-[rgb(0,159,255)]">überall</span>
               <br />
-              <span className="text-white">in the world</span>
+              <span className="text-white">auf der Welt</span>
             </h2>
 
             {/* Description */}
             <p className="text-lg text-white/85 leading-relaxed mb-8">
-              Arc is the best place to find freelance and full-time remote jobs for developers, 
-              designers, marketers, product managers, project managers, assistants, and more. 
-              Get matched to US-based startups and tech companies.
+              Programmier-Anfang ist der beste Ort, um Freelance- und Vollzeit-Remote-Jobs für Entwickler,
+              Designer, Marketer, Produktmanager, Projektmanager, Assistenten und mehr zu finden.
+              Werden Sie mit US-basierten Startups und Technologieunternehmen gematcht.
             </p>
 
             {/* CTA Button */}
-            <a 
+            <a
               href="https://arc.dev/talent"
               className="inline-block px-8 py-3 text-base font-semibold text-white border border-white rounded-md hover:bg-white/10 transition-colors"
             >
-              Learn more
+              Mehr erfahren
             </a>
           </div>
 

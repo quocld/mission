@@ -7,44 +7,45 @@ import CategoriesGrid from '../components/CategoriesGrid';
 import HowItWorksSteps from '../components/HowItWorksSteps';
 import FAQSection from '../components/FAQSection';
 import ResourcesSection from '../components/ResourcesSection';
+import FinalCTA from '../components/FinalCTA';
 
 export default function HireProductManagersPage() {
   const profiles = [
     {
       name: "Jennifer L.",
-      location: "Canada (UTC-4)",
-      badge: "Vetted product manager",
-      bio: "Strategic product manager with 8+ years leading cross-functional teams. Expert in product strategy, roadmap planning, and agile methodologies. Successfully launched 15+ products from 0 to 1.",
-      skills: ["Product Strategy", "Agile", "Scrum", "Data Analysis", "User Research", "Roadmapping", "Jira", "+10"],
-      availability: "Full-time & Freelance",
+      location: "Kanada (UTC-4)",
+      badge: "Geprüfter Produktmanager",
+      bio: "Strategische Produktmanagerin mit 8+ Jahren Erfahrung in der Leitung funktionsübergreifender Teams. Expertin für Produktstrategie, Roadmap-Planung und agile Methoden. Erfolgreiche Einführung von 15+ Produkten von 0 auf 1.",
+      skills: ["Produktstrategie", "Agile", "Scrum", "Datenanalyse", "Nutzerforschung", "Roadmapping", "Jira", "+10"],
+      availability: "Vollzeit & Freelance",
       previousCompany: { name: "Spotify", logo: "Spotify.jpg" },
       avatar: ""
     }
   ];
 
   const stats = [
-    { prefix: "Up to", value: "75%", label: "faster to hire" },
-    { prefix: "Up to", value: "58%", label: "cost savings" },
-    { value: "800+", label: "hires made" }
+    { prefix: "Bis zu", value: "75%", label: "schneller eingestellt" },
+    { prefix: "Bis zu", value: "58%", label: "Kostenersparnis" },
+    { value: "800+", label: "Einstellungen vorgenommen" }
   ];
 
   const testimonials = [
     {
-      quote: "Our Arc product manager transformed our product strategy and execution.",
+      quote: "Unser Programmier-Anfang Produktmanager hat unsere Produktstrategie und -umsetzung transformiert.",
       author: "David Park",
       title: "CEO",
       company: "ProductCo",
       avatar: ""
     },
     {
-      quote: "Found an incredible technical PM who bridges the gap between eng and business.",
+      quote: "Wir haben einen unglaublichen technischen PM gefunden, der die Lücke zwischen Technik und Geschäft schließt.",
       author: "Rachel Green",
       title: "CTO",
       company: "TechVenture",
       avatar: ""
     },
     {
-      quote: "The PM we hired helped us prioritize our roadmap and ship faster.",
+      quote: "Der PM, den wir eingestellt haben, half uns, unsere Roadmap zu priorisieren und schneller zu liefern.",
       author: "Mark Wilson",
       title: "VP of Engineering",
       company: "FastShip",
@@ -55,13 +56,13 @@ export default function HireProductManagersPage() {
   const categorySections = [
     {
       id: "roles",
-      title: "Find and hire remote product managers by specialization",
+      title: "Finden und stellen Sie Remote-Produktmanager nach Spezialisierung ein",
       items: [
-        { name: "Product Managers", icon: "pm-plain.svg", url: "/hire-product-managers" },
-        { name: "Technical Product Managers", icon: "technical-pm-plain.svg", url: "/hire-product-managers/technical" },
+        { name: "Produktmanager", icon: "pm-plain.svg", url: "/hire-product-managers" },
+        { name: "Technische Produktmanager", icon: "technical-pm-plain.svg", url: "/hire-product-managers/technical" },
         { name: "Product Owners", icon: "po-plain.svg", url: "/hire-product-managers/product-owners" },
-        { name: "AI Product Managers", icon: "ai-pm-plain.svg", url: "/hire-product-managers/ai" },
-        { name: "Data Product Managers", icon: "data-pm-plain.svg", url: "/hire-product-managers/data" }
+        { name: "KI-Produktmanager", icon: "ai-pm-plain.svg", url: "/hire-product-managers/ai" },
+        { name: "Daten-Produktmanager", icon: "data-pm-plain.svg", url: "/hire-product-managers/data" }
       ]
     }
   ];
@@ -69,50 +70,55 @@ export default function HireProductManagersPage() {
   const steps = [
     {
       number: "01",
-      title: "Request",
-      description: "Describe the ideal product manager you're looking for.",
-      subtext: "Tell us about the role, product needs, and hiring budget.",
+      title: "Anfrage",
+      description: "Beschreiben Sie den idealen Produktmanager, den Sie suchen.",
+      subtext: "Erzählen Sie uns von der Rolle, den Produktanforderungen und dem Budget.",
       image: "request.png"
     },
     {
       number: "02",
       title: "Interview",
-      description: "Receive vetted product manager profiles that match your needs.",
-      subtext: "Select the product manager you want to interview.",
+      description: "Erhalten Sie geprüfte Produktmanager-Profile, die zu Ihren Anforderungen passen.",
+      subtext: "Wählen Sie den Produktmanager aus, den Sie interviewen möchten.",
       image: "interview.png"
     },
     {
       number: "03",
-      title: "Hire",
-      description: "When ready, hire the product manager you prefer.",
-      subtext: "Sign an NDA with your new product manager, and we'll handle all the paperwork.",
+      title: "Einstellen",
+      description: "Wenn Sie bereit sind, stellen Sie den bevorzugten Produktmanager ein.",
+      subtext: "Unterschreiben Sie eine NDA, und wir kümmern uns um den Papierkram.",
       image: "hire.png"
     }
   ];
 
   const articles = [
-    { title: "How to Hire a Product Manager", image: "resources/1.png", url: "/employer-blog/hire-product-manager/" },
-    { title: "PM Interview Questions", image: "resources/2.png", url: "/employer-blog/pm-questions/" },
-    { title: "Building a Remote Product Team", image: "resources/3.png", url: "/employer-blog/remote-product-team/" },
-    { title: "Product Roadmap Best Practices", image: "resources/4.png", url: "/employer-blog/product-roadmap/" },
-    { title: "Evaluating PM Candidates", image: "resources/5.png", url: "/employer-blog/evaluate-pms/" },
-    { title: "Managing Remote PMs", image: "resources/6.png", url: "/employer-blog/manage-remote-pms/" }
+    { title: "Wie man einen Produktmanager einstellt", image: "resources/1.png", url: "/employer-blog/hire-product-manager/" },
+    { title: "PM Interview Fragen", image: "resources/2.png", url: "/employer-blog/pm-questions/" },
+    { title: "Aufbau eines Remote-Produktteams", image: "resources/3.png", url: "/employer-blog/remote-product-team/" },
+    { title: "Best Practices für Produkt-Roadmaps", image: "resources/4.png", url: "/employer-blog/product-roadmap/" },
+    { title: "Bewertung von PM-Kandidaten", image: "resources/5.png", url: "/employer-blog/evaluate-pms/" },
+    { title: "Management von Remote-PMs", image: "resources/6.png", url: "/employer-blog/manage-remote-pms/" }
   ];
 
   return (
     <div className="min-h-screen bg-white">
       <Header />
-      <HireHero 
+      <HireHero
         category="product-managers"
         count={5678}
-        description="Arc has 5,678 vetted remote product managers ready to interview and hire. Find experienced product managers, product owners, technical PMs, and more to drive your product strategy and roadmap."
+        description="Programmier-Anfang verfügt über 5.678 geprüfte Remote-Produktmanager, die bereit für Interviews sind. Finden Sie erfahrene Produktmanager, Product Owner, technische PMs und mehr, um Ihre Produktstrategie voranzutreiben."
       />
-      <TalentShowcase heading="5,678 Remote product managers available to hire:" profiles={profiles} category="product managers" />
+      <TalentShowcase heading="5.678 Remote-Produktmanager verfügbar:" profiles={profiles} category="product managers" />
       <StatsTestimonials stats={stats} testimonials={testimonials} />
-      <CategoriesGrid heading="Top remote product managers are just a few clicks away" subheading="Arc offers pre-vetted product managers with deep experience across industries." sections={categorySections} />
+      <CategoriesGrid heading="Top-Remote-Produktmanager sind nur wenige Klicks entfernt" subheading="Programmier-Anfang bietet vorgeprüfte Produktmanager mit tiefer Erfahrung in verschiedenen Branchen." sections={categorySections} />
       <HowItWorksSteps steps={steps} category="product managers" />
       <FAQSection category="product managers" />
-      <ResourcesSection heading="Resources for hiring product management experts" subheading="Learn more about how to hire remote product managers and build exceptional product teams!" articles={articles} />
+      <ResourcesSection heading="Ressourcen für die Einstellung von Produktmanagement-Experten" subheading="Erfahren Sie mehr darüber, wie Sie Remote-Produktmanager einstellen und außergewöhnliche Produktteams aufbauen!" articles={articles} />
+      <FinalCTA
+        heading="Ihr zukünftiger Produktmanager ist gleich um die Ecke!"
+        subheading="Risikofrei starten."
+        ctaText="Talente einstellen"
+      />
       <Footer />
     </div>
   );

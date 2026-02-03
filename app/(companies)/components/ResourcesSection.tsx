@@ -51,11 +51,11 @@ export default function ResourcesSection({ heading, subheading, articles }: Reso
 
         {/* CTA */}
         <div className="text-center">
-          <a 
+          <a
             href="/employer-blog"
             className="inline-block px-8 py-3 text-base font-semibold text-gray-900 border border-gray-300 rounded-md hover:bg-gray-100 transition-colors"
           >
-            View more hiring guides
+            Weitere Einstellungs-Guides ansehen
           </a>
         </div>
       </div>
