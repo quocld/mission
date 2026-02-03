@@ -44,10 +44,6 @@ export default function HeroSection() {
               muted
               playsInline
               className="w-full h-full object-cover"
-              onLoadedMetadata={(e) => {
-                const video = e.currentTarget;
-                video.currentTime = 10;
-              }}
             >
               <source src="/videos/hero.webm" type="video/webm" />
             </video>
