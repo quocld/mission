@@ -11,6 +11,10 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Arc - Hire the Top 2% of Remote Talent",
   description: "Hire vetted remote developers, designers, marketers, and more. Top talent ready to interview.",
+  robots: {
+    index: false,
+    follow: false,
+  },
 };
 
 export default function RootLayout({

@@ -16,7 +16,7 @@ export default function WhyChooseArc() {
     },
     {
       id: 'global-hires',
-      icon: '/images/03-why-choose/save_with_global_hires.webp',
+      icon: '/images/03-why-choose/save_with_global_hires_v2.png',
       title: 'Save with global hires',
       description: 'Get access to 450,000 talent in 190 countries, saving up to 58% vs traditional hiring.'
     },
@@ -39,7 +39,7 @@ export default function WhyChooseArc() {
         {/* Features Grid - Max 2 columns */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {features.map((feature) => (
-            <div 
+            <div
               key={feature.id}
               className="flex items-start gap-6 border border-gray-200 rounded-sm p-4"
             >
